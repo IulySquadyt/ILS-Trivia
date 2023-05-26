@@ -169,13 +169,14 @@ int main() {
                 printf("\n");
                 continue;
             }
-            printf("Leaderboard:\n");
             printf("\n");
+            printf("========================================\n\n");
             // se sorteaza jucatorii
             sort_users(user, nr_users);
             // afiseaza clasamentul
             print_leaderboard(user, nr_users);
             printf("\n");
+            printf("========================================\n\n");
             // afiseaza meniul principal
             print_main_menu();
 
